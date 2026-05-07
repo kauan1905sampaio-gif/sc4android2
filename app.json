@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SC Editor",
-    "slug": "sc-editor",
+    "slug": "sc4android",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "sceditor",
@@ -23,13 +23,6 @@
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE"
-      ],
-      "intentFilters": [
-        {
-          "action": "VIEW",
-          "category": ["DEFAULT", "BROWSABLE"],
-          "data": [{ "mimeType": "application/octet-stream" }]
-        }
       ]
     },
     "plugins": [
@@ -41,6 +34,13 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "owner": "kauanio",
+    "extra": {
+      "eas": {
+        "projectId": "0ff83d1b-b224-424e-b565-fe39fa74f663"
+      }
     }
   }
 }
+
