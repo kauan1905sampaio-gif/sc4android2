@@ -27,8 +27,8 @@
     "react-native-reanimated": "~3.10.1",
     "@react-native-async-storage/async-storage": "1.23.1",
     "buffer": "^6.0.3",
-    "lzma-js": "^0.9.2",
-    "fzstd": "^0.3.2"
+    "lzma-js": "0.3.0",
+    "fzstd": "0.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
